@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cave Bar Reservation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<section class="reservation-wrapper" id="#reservation">
+  <div class="reservation-image"></div>
+
+  <div class="reservation-content">
+      <div class="topic-sub">
+            Dine Where the Water Whisper
+         </div>
+          <h2>RESERVATION OPEN SOON</h2>
+    <p>INCANTO opens in September 2026.</p>
+
+   <form class="reservation-form">
+    <!-- Reservation Type -->
+    <div class="mb-3">
+      <label for="reservationType" class="form-label">Reservation Type</label>
+      <select id="reservationType" class="form-select">
+        <option selected disabled>Choose type</option>
+        <option>Private Events</option>
+        <option>Dine-in Reservation</option>
+        <option>Bar Reservation</option>
+        
+      </select>
+    </div>
+
+    <!-- Date and Time -->
+    <div class="row mb-3">
+      <div class="col-md-6 mb-2 mb-md-0">
+        <label for="date" class="form-label">Date</label>
+        <input type="date" class="form-control" id="date">
+      </div>
+      <div class="col-md-6">
+        <label for="time" class="form-label">Time</label>
+        <input type="time" class="form-control" id="time">
+      </div>
+    </div>
+
+    <!-- Number of PAX and Contact Number -->
+    <div class="row mb-3">
+      <div class="col-md-6 mb-2 mb-md-0">
+        <label for="pax" class="form-label">No. of Pax</label>
+        <input type="number" class="form-control" id="pax" min="1" placeholder="e.g., 4">
+      </div>
+      <div class="col-md-6">
+        <label for="contact" class="form-label">Contact Number</label>
+        <input type="tel" class="form-control" id="contact" placeholder="e.g., +94 77 123 4567">
+      </div>
+    </div>
+
+    <!-- Name -->
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Your full name">
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="your@email.com">
+    </div>
+
+    <!-- Description -->
+    <div class="mb-3">
+      <label for="description" class="form-label">Description / Special Requests</label>
+      <textarea id="description" class="form-control" rows="4" placeholder="Let us know any preferences..."></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="text-center">
+      <button type="submit" class="submit-btn">Book Now</button>
+    </div>
+  </form>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

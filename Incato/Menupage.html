@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Navbar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&family=Lora&display=swap" rel="stylesheet">
+ 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <nav>
+    <!-- Hidden checkbox to control hamburger -->
+    <input type="checkbox" id="nav-toggle" />
+
+    <!-- Hamburger icon -->
+    <label for="nav-toggle" class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+
+    <!-- Nav container with nav items and logo -->
+    <div class="nav-container">
+      <ul class="nav-items">
+        <li><a href="./Homepage.html#about">ABOUT US</a></li>
+        <li><a href=""class="active">WATERFALL FLAVOURS</a></li>
+        <li><a href="./cavebar.html">CAVE BAR</a></li>
+        <li><a href="./experience.html">EXPERIENCE </a></li>
+        <li><a href="./contactus.html">CONTACT US </a></li>
+      </ul>
+
+      <div class="logo">
+       INCANTO
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="row g-4">
+      
+      <!-- Left Image Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="./Images/hightea.jpg" class="card-img-top" alt="Left Dish Image">
+        </div>
+      </div>
+
+      <!-- Center Content Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100 text-center p-4 hi">
+          <div class="card-body">
+           <div class="topic-sub">
+            <p>Special</p>
+         </div>
+          <h2>High Tea</h2>
+           <p>
+     Indulge in the timeless elegance of our Special High Tea 
+    </p>
+            <div class="text-center mt-4">
+          <button id="" class="toggle-btn" onclick="location.href='reservation.html'">BOOK NOW</button>
+       </div>
+    
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Image Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="./Images/teanew.jpg" class="card-img-top" alt="Right Dish Image">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+      
+    <div class="center-box">
+       <div class="topic-sub">
+        <p>Taste</p>
+      </div>
+      <h2>WATERFALL FLAVOURS</h2>
+      <p>
+      From the first warm welcome to the final taste on your plate — every moment is a celebration of flavour, story, and soul.Our Italian–Sri Lankan fusion menu is a celebration of bold flavours and cultural harmony. 
+      Begin your journey with us — where every dish tells a story. Explore our menu and discover flavours crafted to enchant your senses.
+    </p>
+    
+      
+       <div class="text-center mt-4">
+          <button id="toggleBtn" class="toggle-btn">VIEW MENU</button>
+       </div>
+    
+    
+
+    </div>
+   
+ 
+  <div class=" menu-sec text-center ps-10">
+  <div class=" hidden-cards ">
+  <div class="menu-card text-center">
+  <div class="menu-image">
+    <img src="./Images/starter.jpg" alt="Dish Image">
+  </div>
+  <div class="menu-content">
+    <div class="topic-sub">
+        <p>Starters</p>
+      </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Tropical Caprese</span>
+        <span class="menu-price">Rs. 2200</span>
+      </div>
+      <div class="menu-description">
+        Fresh buffalo mozzarella, sliced heirloom tomatoes, and basil with a drizzle of Kithul syrup (Sri Lankan palm syrup).
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Italian Roasted Capsicum & Gotukola Pesto</span>
+        <span class="menu-price">Rs. 2,300</span>
+      </div>
+      <div class="menu-description">
+        Roasted bell peppers served with a Sri Lankan gotukola (herbal) pesto.
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title"> Polos (Young Jackfruit) & Burrata Salad</span>
+        <span class="menu-price">Rs. 2,750</span>
+      </div>
+      <div class="menu-description">
+        Burrata cheese with tender polos, cherry tomatoes, and mint.
+      </div>
+    </div>
+    <!-- Add more items as needed -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class=" menu-sec text-center ps-10 pt-5">
+  <div class=" hidden-cards">
+  <div class="menu-card text-center">
+  <div class="menu-image">
+    <img src="./Images/maindish.jpg" alt="Dish Image">
+  </div>
+  <div class="menu-content">
+    <div class="topic-sub">
+        <p>Mains</p>
+      </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Jackfruit & Tomato Ragu with Pappardelle(veg)</span>
+        <span class="menu-price">Rs. 4,700</span>
+      </div>
+      <div class="menu-description">
+       Slow-cooked jackfruit and tomato sauce served with wide pappardelle pasta.
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Seafood Linguine with Coconut and Chili</span>
+        <span class="menu-price">Rs. 5,500</span>
+      </div>
+      <div class="menu-description">
+        Linguine pasta with mixed seafood cooked in a spicy coconut cream sauce.
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Slow-cooked Lamb Shank with Sri Lankan Spices</span>
+        <span class="menu-price">Rs. 5,800</span>
+      </div>
+      <div class="menu-description">
+        Tender lamb shank braised with Italian herbs and Sri Lankan curry powder
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class=" menu-sec text-center ps-10 pt-5">
+  <div class=" hidden-cards ">
+  <div class="menu-card text-center">
+  <div class="menu-image">
+    <img src="./Images/pizza.jpg" alt="Dish Image">
+  </div>
+  <div class="menu-content">
+    <div class="topic-sub">
+        <p>Pizza Menu</p>
+      </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Garlic Polpette Pizza</span>
+        <span class="menu-price">Rs. 5,600</span>
+      </div>
+      <div class="menu-description">
+        Sri Lankan-style beef meatballs with garlic butter & tomato sauce
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Gamberi Curry Pizza</span>
+        <span class="menu-price">Rs. 5,800</span>
+      </div>
+      <div class="menu-description">
+         Garlic prawns, Sri Lankan creamy curry sauce, bell peppers, basil.
+      </div>
+    </div>
+     <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Prosciutto & Seeni Sambol</span>
+        <span class="menu-price">Rs. 5,500</span>
+      </div>
+      <div class="menu-description">
+          Italian cured ham with caramelized Sri Lankan onion sambol
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class=" menu-sec text-center ps-10 pt-5">
+  <div class=" hidden-cards ">
+  <div class="menu-card text-center">
+  <div class="menu-image">
+    <img src="./Images/dessert.jpg" alt="Dish Image">
+  </div>
+  <div class="menu-content">
+    <div class="topic-sub">
+        <p>Dessert</p>
+      </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Kithul Tiramisu</span>
+        <span class="menu-price">Rs. 2,800</span>
+      </div>
+      <div class="menu-description">
+        Classic Italian tiramisu sweetened with Sri Lankan kithul syrup
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Gotukola & Honey Cheesecake</span>
+        <span class="menu-price">Rs. 3,000</span>
+      </div>
+      <div class="menu-description">
+        Creamy cheesecake flavored with gotukola and Sri Lankan wild honey
+      </div>
+    </div>
+     <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Jackfruit Gelato</span>
+        <span class="menu-price">Rs. 2,600</span>
+      </div>
+      <div class="menu-description">
+        Smooth gelato made with fresh jackfruit puree.
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class=" menu-sec text-center ps-10 pt-5">
+  <div class=" hidden-cards ">
+  <div class="menu-card text-center">
+  <div class="menu-image">
+    <img src="./Images/lavender-Collins-Cocktail-7.jpg" alt="Dish Image">
+  </div>
+  <div class="menu-content">
+    <div class="topic-sub">
+        <p>Beverages</p>
+      </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Italian Lemon Soda with Kithul Syrup</span>
+        <span class="menu-price">Rs. 2,000</span>
+      </div>
+      <div class="menu-description">
+        Sparkling lemon soda sweetened with kithul palm syrup.
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Sri Lankan Spiced Iced Tea</span>
+        <span class="menu-price">Rs. 1,900</span>
+      </div>
+      <div class="menu-description">
+        Black tea with cinnamon, cardamom, and clove, served chilled.	
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-title-line">
+        <span class="menu-title">Italian Espresso with Ceylon Cinnamon</span>
+        <span class="menu-price">Rs. 2,000</span>
+      </div>
+      <div class="menu-description">
+        Rich espresso with a hint of Ceylon cinnamon.	
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+</div>
+ 
+
+
+
+
+
+  <script>
+     const toggleBtn = document.getElementById('toggleBtn');
+  const hiddenCards = document.querySelectorAll('.hidden-cards');
+  let isExpanded = false;
+
+  toggleBtn.addEventListener('click', () => {
+    isExpanded = !isExpanded;
+
+    hiddenCards.forEach(card => {
+      card.style.display = isExpanded ? 'block' : 'none';
+    });
+
+    toggleBtn.textContent = isExpanded ? 'Show Less' : 'View menu';
+  });
+  </script>
+</body>
+</html>
